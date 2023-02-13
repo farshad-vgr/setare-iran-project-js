@@ -718,7 +718,7 @@ a:hover {
 }
 
 #footer .links {
-	margin-top: 3.75rem;
+	margin-top: 5rem;
 }
 
 #footer .links a {
@@ -1158,7 +1158,7 @@ a:hover {
 	}
 
   #weather > * {
-		margin-left: -0.125rem;
+		margin-left: -2rem;
 	}
 
 	#weather::before {
