@@ -18,7 +18,7 @@ $("#toggler").on("click", function () {
 });
 
 $(window).on("beforeunload", function () {
-	$(window).scrollTop(6000);
+	$(window).scrollTop(0);
 });
 
 $(window).on("scroll load", function () {
