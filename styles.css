@@ -1,3 +1,23 @@
+:root {
+  --color-black: black;
+  --color-black-9: rgba(0, 0, 0, 0.9);
+  --color-black-7: rgba(0, 0, 0, 0.7);
+  --color-black-5: rgba(0, 0, 0, 0.5);
+  --color-black-3: rgba(0, 0, 0, 0.3);
+  --color-black-1: rgba(0, 0, 0, 0.1);
+  --color-darkgray: #444;
+  --color-gray: gray;
+  --color-lightgray: lightgray;
+  --color-silver: silver;
+  --color-whitesmoke: whitesmoke;
+  --color-white: white;
+  --color-midnightblue: midnightblue;
+  --color-steelblue: steelblue;
+  --color-deepskyblue: deepskyblue;
+  --color-skyblue: skyblue;
+  --color-red: red;
+}
+
 body {
 	cursor: default;
 }
@@ -35,21 +55,21 @@ a:hover {
 #logo a {
 	margin-top: 16px;
 	font-size: 16px;
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 }
 
 #toggler {
 	position: absolute;
 	left: 20px;
 	top: 8px;
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 	cursor: pointer;
 	font-size: 30px;
 }
 
 #nav {
 	position: fixed;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: var(--color-black-9);
 	width: 180px;
 	right: -180px;
 	top: 0;
@@ -68,13 +88,13 @@ a:hover {
 }
 
 #nav a {
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 	font-weight: 500;
 	padding: 0 12px;
 }
 
 #nav li:hover a {
-	color: skyblue;
+	color: var(--color-skyblue);
 }
 
 /* ------------------------------------------- Main Section: */
@@ -108,7 +128,7 @@ a:hover {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: var(--color-black-5);
 	padding-top: 100px;
 }
 
@@ -118,11 +138,11 @@ a:hover {
 }
 
 #top-carousel li.active {
-	background-color: skyblue;
+	background-color: var(--color-skyblue);
 }
 
 #top-carousel .carousel-content {
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 	max-width: 900px;
 	margin: 10% auto;
 	padding: 0 70px;
@@ -151,7 +171,7 @@ a:hover {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-color: midnightblue;
+	background-color: var(--color-midnightblue);
 	border-radius: 40px;
 	z-index: -1;
 }
@@ -169,7 +189,7 @@ a:hover {
 }
 
 .section-header h3 {
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 	font-size: 32px;
 	text-align: center;
 	font-weight: 600;
@@ -177,14 +197,14 @@ a:hover {
 }
 
 .section-header h4 {
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 	font-size: 24px;
 	text-align: center;
 	font-weight: 400;
 }
 
 .section-header p {
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 	text-align: center;
 	padding-bottom: 30px;
 	max-width: 800px;
@@ -205,7 +225,7 @@ a:hover {
 #about::before {
 	content: "";
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: var(--color-black-7);
 	top: 0;
 	right: 0;
 	width: 100%;
@@ -213,7 +233,7 @@ a:hover {
 }
 
 #about .card-text {
-	color: #444;
+	color: var(--color-darkgray);
 	font-size: 14px;
 	text-align: justify;
 }
@@ -231,7 +251,7 @@ a:hover {
 #services::before {
 	content: "";
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: var(--color-black-7);
 	top: 0;
 	right: 0;
 	width: 100%;
@@ -242,16 +262,16 @@ a:hover {
 	margin-right: 55px;
 	margin-bottom: 15px;
 	font-weight: bold;
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 }
 
 #services i {
-	color: deepskyblue;
+	color: var(--color-deepskyblue);
 }
 
 #services .description {
 	margin: 0 55px 40px 20px;
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 	font-size: 14px;
 	text-align: justify;
 }
@@ -260,7 +280,7 @@ a:hover {
 	background: url("../images/MB-footer-logo.png") center / auto no-repeat fixed,
 		url("../images/MB-background-carbonfiber1.webp") center / cover no-repeat fixed;
 	padding: 60px 0 10px 0;
-	color: white;
+	color: var(--color-white);
 	position: relative;
 	overflow: hidden;
 }
@@ -271,7 +291,7 @@ a:hover {
 #stats::before {
 	content: "";
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: var(--color-black-7);
 	top: 0;
 	right: 0;
 	width: 100%;
@@ -281,7 +301,7 @@ a:hover {
 #stats span {
 	font-size: 56px;
 	font-weight: 600;
-	color: deepskyblue;
+	color: var(--color-deepskyblue);
 	font-family: yekanf, sans-serif;
 	cursor: default;
 }
@@ -310,7 +330,7 @@ a:hover {
 #skills::before {
 	content: "";
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: var(--color-black-5);
 	top: 0;
 	right: 0;
 	width: 100%;
@@ -336,7 +356,7 @@ a:hover {
 
 #portfolio {
 	padding: 60px 0;
-	background-color: #efefef;
+	background-color: var(--color-whitesmoke);
 }
 
 #portfolio .container {
@@ -347,18 +367,18 @@ a:hover {
 	margin: 0 auto;
 	padding-bottom: 20px;
 	width: 50%;
-	color: gray;
+	color: var(--color-gray);
 	font-size: 24px;
 	text-align: center;
 	font-weight: 400;
-	border-bottom: 1px solid lightgray;
+	border-bottom: 1px solid var(--color-lightgray);
 }
 
 #portfolio h5 {
 	margin: 0 auto;
 	padding-bottom: 10px;
 	text-align: center;
-	border-bottom: 1px solid lightgray;
+	border-bottom: 1px solid var(--color-lightgray);
 }
 
 #gallery * {
@@ -394,7 +414,7 @@ a:hover {
 	height: 135px;
 	animation: slider 100s infinite;
 	border-radius: 5px;
-	box-shadow: 0 0 10px black;
+	box-shadow: 0 0 10px var(--color-black);
 	overflow: hidden;
 }
 
@@ -487,7 +507,7 @@ a:hover {
 	background-color: transparent;
 	border: none;
 	border-radius: 10px;
-	box-shadow: 0 0 5px silver inset;
+	box-shadow: 0 0 5px var(--color-silver) inset;
 	padding: 10px;
 	margin: 10px;
 	cursor: pointer;
@@ -495,11 +515,11 @@ a:hover {
 }
 
 #portfolio-filter li:hover {
-	box-shadow: 0 0 15px silver inset;
+	box-shadow: 0 0 15px var(--color-silver) inset;
 }
 
 #portfolio #portfolio-filter .filter-active {
-	box-shadow: 0 0 30px silver inset;
+	box-shadow: 0 0 30px var(--color-silver) inset;
 }
 
 #portfolio .card-img-overlay {
@@ -509,7 +529,7 @@ a:hover {
 }
 
 #portfolio .card-img-overlay:hover {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: var(--color-black-5);
 	padding: 0 0;
 }
 
@@ -518,8 +538,8 @@ a:hover {
 	width: 36px;
 	height: 36px;
 	margin: 10% 8px;
-	color: black;
-	background-color: white;
+	color: var(--color-black);
+	background-color: var(--color-white);
 	font-size: 20px;
 	line-height: 40px;
 	border-radius: 50%;
@@ -531,7 +551,7 @@ a:hover {
 	display: inline-block;
 	width: 100%;
 	margin: 6% 8px;
-	color: whitesmoke;
+	color: var(--color-whitesmoke);
 	font-size: 20px;
 	transition-duration: 0.5s;
 	opacity: 0;
@@ -543,12 +563,12 @@ a:hover {
 }
 
 #portfolio .card-img-overlay a:hover {
-	background-color: skyblue;
+	background-color: var(--color-skyblue);
 }
 
 #team {
 	padding: 60px 0;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: var(--color-black-7);
 	position: relative;
 	overflow: hidden;
 }
@@ -558,10 +578,10 @@ a:hover {
 }
 
 #team .card-img-overlay {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: var(--color-black-5);
 	text-align: center;
 	padding-top: 30%;
-	color: white;
+	color: var(--color-white);
 	top: -50%;
 	transition-duration: 0.8s;
 	opacity: 0;
@@ -574,7 +594,7 @@ a:hover {
 
 #team .card {
 	overflow: hidden;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 4px var(--color-black-1);
 	margin-bottom: 40px;
 }
 
@@ -588,28 +608,28 @@ a:hover {
 
 #team .card-img-overlay a {
 	padding: 0 8px;
-	color: white;
+	color: var(--color-white);
 	transition: 0.5s;
 }
 
 #team .card-img-overlay h4 a:hover {
-	color: deepskyblue;
+	color: var(--color-deepskyblue);
 }
 
 #team .card-img-overlay div a:nth-child(1):hover {
-	color: deepskyblue;
+	color: var(--color-deepskyblue);
 }
 
 #team .card-img-overlay div a:nth-child(2):hover {
-	color: steelblue;
+	color: var(--color-steelblue);
 }
 
 #team .card-img-overlay div a:nth-child(3):hover {
-	color: red;
+	color: var(--color-red);
 }
 
 #team .card-img-overlay div a:nth-child(4):hover {
-	color: deepskyblue;
+	color: var(--color-deepskyblue);
 }
 
 #clients {
@@ -624,7 +644,7 @@ a:hover {
 #clients::before {
 	content: "";
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: var(--color-black-7);
 	top: 0;
 	right: 0;
 	width: 100%;
@@ -647,7 +667,7 @@ a:hover {
 	height: 12px;
 	border-radius: 50%;
 	outline: 0;
-	background-color: #ddd;
+	background-color: var(--color-lightgray);
 }
 
 #clients .owl-dots {
@@ -655,12 +675,12 @@ a:hover {
 }
 
 #clients .owl-dot.active {
-	background-color: skyblue;
+	background-color: var(--color-skyblue);
 }
 
 /* ------------------------------------------- Footer Section: */
 #footer {
-	background-color: #222;
+	background-color: var(--color-black);
 	padding-top: 60px;
 	font-weight: 300;
 	font-size: 14px;
@@ -669,7 +689,7 @@ a:hover {
 #footer h5 {
 	font-weight: 400;
 	padding-bottom: 15px;
-	border-bottom: 2px #555 solid;
+	border-bottom: 2px var(--color-darkgray) solid;
 	margin-bottom: 20px;
 }
 
@@ -679,7 +699,7 @@ a:hover {
 
 #footer li {
 	padding: 6px 0;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid var(--color-darkgray);
 }
 
 #footer li:first-child {
@@ -691,16 +711,16 @@ a:hover {
 }
 
 #footer li a {
-	color: #ddd;
+	color: var(--color-lightgray);
 	transition-duration: 0.3s;
 }
 
 #footer li a:hover {
-	color: deepskyblue;
+	color: var(--color-deepskyblue);
 }
 
 #footer li i {
-	color: #ddd;
+	color: var(--color-lightgray);
 	padding-left: 8px;
 }
 
@@ -713,8 +733,8 @@ a:hover {
 	display: inline-block;
 	width: 34px;
 	height: 34px;
-	background-color: #444;
-	color: #eee;
+	background-color: var(--color-darkgray);
+	color: var(--color-whitesmoke);
 	line-height: 2.1em;
 	margin-left: 4px;
 	border-radius: 50%;
@@ -723,28 +743,28 @@ a:hover {
 }
 
 #footer .links a:nth-child(1):hover {
-	background-color: deepskyblue;
-	color: #fff;
+	background-color: var(--color-deepskyblue);
+	color: var(--color-white);
 }
 
 #footer .links a:nth-child(2):hover {
-	background-color: steelblue;
-	color: #fff;
+	background-color: var(--color-steelblue);
+	color: var(--color-white);
 }
 
 #footer .links a:nth-child(3):hover {
 	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-	color: #fff;
+	color: var(--color-white);
 }
 
 #footer .links a:nth-child(4):hover {
-	background-color: red;
-	color: #fff;
+	background-color: var(--color-red);
+	color: var(--color-white);
 }
 
 #footer .links a:nth-child(5):hover {
-	background-color: deepskyblue;
-	color: #fff;
+	background-color: var(--color-deepskyblue);
+	color: var(--color-white);
 }
 
 #footer input {
@@ -758,24 +778,24 @@ a:hover {
 
 #footer button#join {
 	float: right;
-	background-color: deepskyblue;
+	background-color: var(--color-deepskyblue);
 	border: 0;
 	outline: none;
 	padding: 4px 8px;
-	color: #fff;
+	color: var(--color-white);
 	cursor: pointer;
 	transition: 0.3s;
 }
 
 #footer button#join-options {
-	background-color: deepskyblue;
+	background-color: var(--color-deepskyblue);
 	border: 0;
 	outline: none;
 }
 
 #footer button#join:hover,
 #footer button#join-options:hover {
-	background-color: steelblue;
+	background-color: var(--color-steelblue);
 }
 
 #footer .dropdown-toggle::after {
@@ -783,7 +803,7 @@ a:hover {
 }
 
 #copyright {
-	background-color: black;
+	background-color: var(--color-black);
 }
 
 #copyright p::before {
@@ -792,7 +812,7 @@ a:hover {
 }
 
 #copyright p b {
-	color: white;
+	color: var(--color-white);
 }
 
 /* ------------------------------------------- Jumper Button Section: */
@@ -803,17 +823,18 @@ a:hover {
 	display: inline-block;
 	width: 46px;
 	height: 46px;
-	background-color: rgba(0, 0, 0, 0.3);
-	color: white;
+	background-color: var(--color-black-3);
+	color: var(--color-white);
 	font-weight: bold;
 	border-radius: 50%;
 	text-align: center;
 	line-height: 2.8em;
 	transition-duration: 0.5s;
+  z-index: 100;
 }
 
 #go-to-top:hover {
-	background-color: rgba(0, 160, 255, 0.9);
+	background-color: var(--color-red);
 }
 
 /* ------------------------------------------- Media Queries Section: */
@@ -853,7 +874,7 @@ a:hover {
 		height: 180px;
 		animation: slider 100s infinite;
 		border-radius: 5px;
-		box-shadow: 0 0 10px black;
+		box-shadow: 0 0 10px var(--color-black);
 		overflow: hidden;
 	}
 
@@ -964,7 +985,7 @@ a:hover {
 		height: 270px;
 		animation: slider 100s infinite;
 		border-radius: 5px;
-		box-shadow: 0 0 10px black;
+		box-shadow: 0 0 10px var(--color-black);
 		overflow: hidden;
 	}
 
@@ -1059,7 +1080,7 @@ a:hover {
 		top: -16.5px;
 		left: 100px;
 		transform: rotate(45deg);
-		background-color: #efefef;
+		background-color: var(--color-whitesmoke);
 		z-index: 5;
 	}
 
@@ -1070,7 +1091,7 @@ a:hover {
 		height: 24px;
 		bottom: 100%;
 		left: 0;
-		background-color: #efefef;
+		background-color: var(--color-whitesmoke);
 		z-index: 5;
 	}
 
@@ -1086,7 +1107,7 @@ a:hover {
 		top: -17px;
 		right: 100px;
 		transform: rotate(45deg);
-		background-color: #efefef;
+		background-color: var(--color-whitesmoke);
 		z-index: 5;
 	}
 
@@ -1097,7 +1118,7 @@ a:hover {
 		height: 24px;
 		top: 0;
 		right: 0;
-		background-color: #efefef;
+		background-color: var(--color-whitesmoke);
 		z-index: 5;
 	}
 
@@ -1123,7 +1144,7 @@ a:hover {
 		top: -17px;
 		right: 100px;
 		transform: rotate(45deg);
-		background-color: #222222;
+		background-color: var(--color-black);
 		z-index: 5;
 	}
 
@@ -1134,12 +1155,17 @@ a:hover {
 		height: 24px;
 		bottom: 100%;
 		right: 0;
-		background-color: #222222;
+		background-color: var(--color-black);
 		z-index: 5;
 	}
 
 	#weather {
 		position: relative;
+    overflow: hidden;
+	}
+
+  #weather > * {
+		margin-left: -2rem;
 	}
 
 	#weather::before {
@@ -1150,7 +1176,7 @@ a:hover {
 		top: -18px;
 		left: 100px;
 		transform: rotate(45deg);
-		background-color: #222222;
+		background-color: var(--color-black);
 		z-index: 5;
 	}
 
@@ -1161,7 +1187,7 @@ a:hover {
 		height: 24px;
 		top: 0;
 		left: 0;
-		background-color: #222222;
+		background-color: var(--color-black);
 		z-index: 5;
 	}
 
@@ -1177,7 +1203,7 @@ a:hover {
 		top: -16.5px;
 		left: 100px;
 		transform: rotate(45deg);
-		background-color: black;
+		background-color: var(--color-black);
 		z-index: 5;
 	}
 
@@ -1188,7 +1214,7 @@ a:hover {
 		height: 24px;
 		bottom: 100%;
 		left: 0;
-		background-color: black;
+		background-color: var(--color-black);
 		z-index: 5;
 	}
 }
@@ -1201,7 +1227,7 @@ a:hover {
 		right: 40%;
 		width: 5px;
 		height: 5px;
-		border: solid deepskyblue;
+		border: solid var(--color-deepskyblue);
 		border-width: 0 2px 2px 0;
 		opacity: 0;
 		transition: all 0.5s;
@@ -1214,7 +1240,7 @@ a:hover {
 		right: 3%;
 		width: 5px;
 		height: 5px;
-		border: solid deepskyblue;
+		border: solid var(--color-deepskyblue);
 		border-width: 0 2px 2px 0;
 		opacity: 1;
 	}
@@ -1226,7 +1252,7 @@ a:hover {
 		left: 40%;
 		width: 5px;
 		height: 5px;
-		border: solid deepskyblue;
+		border: solid var(--color-deepskyblue);
 		border-width: 2px 0 0 2px;
 		opacity: 0;
 		transition: all 0.5s;
@@ -1239,7 +1265,7 @@ a:hover {
 		left: 3%;
 		width: 5px;
 		height: 5px;
-		border: solid deepskyblue;
+		border: solid var(--color-deepskyblue);
 		border-width: 2px 0 0 2px;
 		opacity: 1;
 	}
