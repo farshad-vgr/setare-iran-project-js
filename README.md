@@ -11,7 +11,7 @@
   </a>
   
   <a href="https://jquery.com/" target="_blank" title="JQuery">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/JQuery-Logo.svg/2560px-JQuery-Logo.svg.png" alt="JQuery" width="60" height="40"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/JQuery-Logo.svg/2560px-JQuery-Logo.svg.png" alt="JQuery" width="100" height="40"/>
   </a>
  
   <a href="https://www.w3schools.com/html/" target="_blank" title="HTML5">
