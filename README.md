@@ -13,6 +13,10 @@
   <a href="https://jquery.com/" target="_blank" title="JQuery">
     <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/jquery_vertical_logo_icon_169489.png" alt="JQuery" width="40" height="40"/>
   </a>
+  
+  <a href="https://getbootstrap.com/" target="_blank" title="Bootstrap">
+	<img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap" width="40" height="40"/>
+  </a>
  
   <a href="https://www.w3schools.com/html/" target="_blank" title="HTML5">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
@@ -20,6 +24,10 @@
   
   <a href="https://www.w3schools.com/css/" target="_blank" title="CSS3">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
+  </a>
+  
+  <a href="https://fontawesome.com/" target="_blank" title="Font Awesome">
+	<img src="https://fontawesome.com/images/favicon/icon.svg" alt="Font Awesome" width="40" height="40"/>
   </a>
 </p>
 
